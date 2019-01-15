@@ -26,7 +26,10 @@ class HelloController extends Controller
     public $layout = 'common'; // 没有的话 使用默认的
     public function actionLayout1()
     {
-
+        return $this->render('layout');
+    }
+    public function actionAbout ()
+    {
         return $this->render('about');
     }
 
