@@ -13,6 +13,7 @@
     <?= $this->blocks['block1'] ?>
 <?php else: ?>
     <h1>Common Layout Default</h1>
+    <p>/views/layouts/common</p>
 <?php endif; ?>
 <?= $content ?>
 </body>

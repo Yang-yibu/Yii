@@ -7,4 +7,4 @@
  */
 ?>
 
-hello about
+views/hello/about：hello about

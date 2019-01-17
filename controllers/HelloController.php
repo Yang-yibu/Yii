@@ -21,6 +21,7 @@ class HelloController extends Controller
         $data['view_hello_str'] = $hello_str;
         // 渲染的视图文件 可省略后缀名
         return $this->renderPartial('index.php', $data);
+        //echo 'about1';
     }
 
     public $layout = 'common'; // 没有的话 使用默认的
