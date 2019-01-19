@@ -11,5 +11,10 @@ use yii\db\ActiveRecord;
 
 class Books extends ActiveRecord
 {
-
+    public static function tableName()
+    {
+        //默认连接 book 表名；
+        // 此处修改自定义表名
+        return 't_books';
+    }
 }
