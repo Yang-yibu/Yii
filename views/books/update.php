@@ -9,10 +9,10 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
-$this->title = 'Update Books' . $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'books', 'url' => ['index']];
+$this->title = '修改：' . $model->name;
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'books'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = Yii::t('app', 'Update');
 ?>
 
 <div class="books-update">

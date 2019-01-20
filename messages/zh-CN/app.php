@@ -8,6 +8,7 @@ return [
     'price' => '价格',
     'bookDesc' => '书籍简介',
 
+    'Create Books' => '添加图书',
     'update' => '更新',
     'Update' => '更新',
     'delete' => '删除',

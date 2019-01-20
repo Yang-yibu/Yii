@@ -9,6 +9,9 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
+$this->title = Yii::t('app', 'Create Books');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'books'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 
 <div class="class-create">
