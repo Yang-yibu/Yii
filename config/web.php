@@ -42,6 +42,14 @@ $config = [
                 ],
             ],
         ],
+        'i18n' => [
+            'translations' => [
+                'app' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'basePath' => '@app/messages',
+                ],
+            ],
+        ],
         'db' => $db,
         /*
         'urlManager' => [
@@ -53,6 +61,7 @@ $config = [
         */
     ],
     'params' => $params,
+    'language' => 'zh-CN',
 ];
 
 if (YII_ENV_DEV) {
