@@ -24,4 +24,4 @@ http://localhost:8080/index.php?r=books/index
 
 ## 待处理问题
 
-[ ] 修改数据的时候，`create_time` 字段的时间也更新问题
+-[ ] 修改数据的时候，`create_time` 字段的时间也更新问题
