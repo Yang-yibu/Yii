@@ -62,6 +62,7 @@ $config = [
     ],
     'params' => $params,
     'language' => 'zh-CN',
+    'timeZone'=>'PRC',
 ];
 
 if (YII_ENV_DEV) {

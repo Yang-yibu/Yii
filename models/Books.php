@@ -26,11 +26,14 @@ class Books extends ActiveRecord
         return [
             [
                 'class' => TimestampBehavior::className(),
-                'attributes' => [
-                    // 创建时更新 到 create_time 和 update_time 字段
-                    ActiveRecord::EVENT_BEFORE_INSERT => ['create_time', 'update_time'],
-                    ActiveRecord::EVENT_AFTER_UPDATE => ['update_time']
-                ],
+                'createdAtAttribute' => 'create_time',
+                'updatedAtAttribute' => 'update_time',
+                //'attributes' => [
+                //    // 创建时更新 到 create_time 和 update_time 字段
+                //    ActiveRecord::EVENT_BEFORE_INSERT => ['create_time', 'update_time'],
+                //    // 修改时的更新时间
+                //    ActiveRecord::EVENT_BEFORE_UPDATE => ['update_time']
+                //],
                 'value' => date('Y-m-d H:i:s')
             ]
         ];
