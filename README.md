@@ -1,4 +1,5 @@
 
+
 DIRECTORY STRUCTURE
 -------------------
 
@@ -14,4 +15,13 @@ DIRECTORY STRUCTURE
       views/              contains view files for the Web application
       web/                contains the entry script and Web resources
 
+## 访问
+```bash
+http://localhost:8080/index.php?r=books
+// 或
+http://localhost:8080/index.php?r=books/index
+```
 
+## 待处理问题
+
+[ ] 修改数据的时候，`create_time` 字段的时间也更新问题
